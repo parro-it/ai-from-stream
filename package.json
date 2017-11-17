@@ -1,6 +1,6 @@
 {
   "name": "ai-from-stream",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "create an async iterable from a stream",
   "repository": "parro-it/ai-from-stream",
   "author": "Andrea Parodi <andrea@parro.it>",
