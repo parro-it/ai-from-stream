@@ -10,19 +10,14 @@
     "example.js"
   ],
   "scripts": {
-    "test": "node --harmony_async_iteration -r @std/esm test.js | tap-prettify - && linterjs .",
+    "test": "node --harmony_async_iteration -r @std/esm test.js | tap-colorize - && linterjs .",
     "doc": "documentation readme index.js --section=API"
   },
   "engines": {
-    "node": ">8.8"
+    "node": ">9"
   },
   "keywords": [],
   "tonicExampleFilename": "example.js",
-  "ava": {
-    "require": [
-      "@std/esm"
-    ]
-  },
   "@std/esm": {
     "esm": "js",
     "cjs": true
@@ -31,7 +26,7 @@
     "@std/esm": "^0.16.0",
     "documentation": "^5.3.3",
     "linterjs": "^1.11.0",
-    "tap-prettify": "0.0.2",
+    "tap-colorize": "^1.2.0",
     "tape-async": "^2.3.0"
   },
   "dependencies": {
