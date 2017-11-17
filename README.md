@@ -1,9 +1,9 @@
-# $package_name
+# ai-from-stream
 
-[![Travis Build Status](https://img.shields.io/travis/$package_author/$package_name/master.svg)](http://travis-ci.org/$package_author/$package_name)
-[![NPM downloads](https://img.shields.io/npm/dt/$package_name.svg)](https://npmjs.org/package/$package_name)
+[![Travis Build Status](https://img.shields.io/travis/parro-it/ai-from-stream/master.svg)](http://travis-ci.org/parro-it/ai-from-stream)
+[![NPM downloads](https://img.shields.io/npm/dt/ai-from-stream.svg)](https://npmjs.org/package/ai-from-stream)
 
-> $package_description
+> create an async iterable from a stream
 
 background details relevant to understanding what this module does
 
@@ -12,9 +12,9 @@ background details relevant to understanding what this module does
 description of the example
 
 ```js
-const $package_var = require('$package_name');
+const aiFromStream = require('ai-from-stream');
 
-console.log({$package_var});
+console.log({aiFromStream});
 ```
 
 This will output
@@ -29,7 +29,7 @@ This will output
 With [npm](https://npmjs.org/) installed, run
 
 ```bash
-npm install --save $package_name
+npm install --save ai-from-stream
 ```
 
 ## See Also

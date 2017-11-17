@@ -1,3 +1,3 @@
-const $package_var = require("$package_name");
+const aiFromStream = require("ai-from-stream");
 
-console.log({ $package_var });
+console.log({ aiFromStream });
