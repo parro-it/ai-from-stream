@@ -1,16 +1,7 @@
 import test from "tape-async";
 import fromStream from ".";
 import { createReadStream } from "fs";
-
-async function concat(iterable) {
-  let result = "";
-
-  for await (const chunk of iterable) {
-    result += chunk;
-  }
-
-  return result;
-}
+import concat from "ai-concat";
 
 test("transform a stream into an async iterable", async t => {
   const stream = createReadStream(`${__dirname}/fixtures/test`, "utf8");
